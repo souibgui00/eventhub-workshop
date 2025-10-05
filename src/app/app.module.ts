@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; // <-- NÉCESSAIRE pour [(ngModel)]
+import { SharedModule } from './shared/shared.module'; // Importer
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,7 +25,8 @@ import { ListEventComponent } from './layout/list-event/list-event.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
