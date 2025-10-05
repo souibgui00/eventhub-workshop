@@ -1,0 +1,19 @@
+.footer {
+  /* Assure que le footer reste en bas si la page est courte */
+  margin-top: auto;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.7); /* Liens un peu plus discrets */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Animation douce au survol */
+}
+
+.footer-links a:hover {
+  color: #ffffff; /* Le lien devient blanc au survol */
+  text-decoration: underline;
+}
+
+.text-primary {
+  color: #0d6efd !important; /* Couleur bleue de Bootstrap pour le titre */
+}
